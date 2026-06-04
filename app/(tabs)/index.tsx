@@ -20,12 +20,12 @@ export default function App() {
         Subscription Details
       </Link>
       <Link
-      href={{
-        pathname: "/subscriptions/[id]",
-        params: { id: "claude" }
-      }}
+        href={{
+          pathname: "/subscriptions/[id]",
+          params: { id: "claude" }
+        }}
       >
-       Claude Max Subscription
+        Claude Max Subscription
       </Link>
     </View>
   );
